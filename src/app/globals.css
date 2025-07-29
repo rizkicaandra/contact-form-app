@@ -16,16 +16,17 @@
   font-display: swap;
 }
 
-:root {
-  --grey-900: #2a4144;
-  --grey-500: #86a2a5;
-  --white: #ffffff;
-  --green-600: #0c7d69;
-  --green-200: #e0f1e8;
-  --red: #d73c3c;
-}
-
 @theme {
+  /* spacing */
+  --spacing-54: 13.5rem;
+  --spacing-33: 8.25rem;
+  --spacing-26.25: 6.563rem;
+
+  /* container */
+  --container-form-mobile: 21.438rem;
+  --container-form-tablet: 43.125rem;
+  --container-form-desktop: 46rem;
+
   /* colors */
   --color-grey-900: #2a4144;
   --color-grey-500: #86a2a5;
@@ -59,4 +60,5 @@
 body {
   background: var(--color-green-200);
   font-family: 'Karla', sans-serif;
+  color: var(--color-grey-900);
 }
