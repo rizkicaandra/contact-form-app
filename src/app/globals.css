@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Karla';
+  src: url('/fonts/Karla-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Variable font supports a range */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('/fonts/Karla-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --grey-900: #2a4144;
+  --grey-500: #86a2a5;
+  --white: #ffffff;
+  --green-600: #0c7d69;
+  --green-200: #e0f1e8;
+  --red: #d73c3c;
+}
+
+@theme {
+  /* colors */
+  --color-grey-900: #2a4144;
+  --color-grey-500: #86a2a5;
+  --color-white: #ffffff;
+  --color-green-600: #0c7d69;
+  --color-green-200: #e0f1e8;
+  --color-red: #d73c3c;
+
+  /* text */
+  --text-heading: 2rem;
+  --text-heading--line-height: 1;
+  --text-heading--letter-spacing: -0.063rem;
+  --text-heading--font-weight: 700;
+
+  --text-body-md: 1.125rem;
+  --text-body-md--line-height: 1.5;
+  --text-body-md--letter-spacing: 0rem;
+  --text-body-md--font-weight: 700;
+
+  --text-body-md-regular: 1.125rem;
+  --text-body-md-regular--line-height: 1.5;
+  --text-body-md-regular--letter-spacing: 0rem;
+  --text-body-md-regular--font-weight: 400;
+
+  --text-body-sm: 1rem;
+  --text-body-sm--line-height: 1.5;
+  --text-body-sm--letter-spacing: 0rem;
+  --text-body-sm--font-weight: 400;
+}
+
+body {
+  background: var(--color-green-200);
+  font-family: 'Karla', sans-serif;
+}
