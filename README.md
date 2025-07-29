@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/rizkicaandra/contact-form-app)
-- Live Site URL: [Live](https://clever-beignet-86ec5e.netlify.app)
+- Live Site URL: [Live](https://dreamy-marigold-0504a9.netlify.app/)
 
 ## My process
 
